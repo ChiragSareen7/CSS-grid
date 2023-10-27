@@ -1,0 +1,19 @@
+
+body{
+    background-color: black;  
+    background-size: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    margin-left: 225px;
+}
+img{
+    border: 3px solid rgb(185, 185, 185);
+}
+h1{
+    text-align: center;
+    color: aqua;
+    font-weight: 500;
+}
